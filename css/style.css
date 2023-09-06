@@ -1,0 +1,51 @@
+html{
+    font-family: 'Phudu', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #949ccc;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+a{
+    color: #ffdacd;
+}
+
+a:hover{
+    color: #c98a73;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.right-text{
+    text-align: right;
+}
+
+
+.grid-header{
+    display: grid;
+    grid-template-columns: 55% 65%;
+}
+
+.grid-index{
+    display: grid;
+    grid-template-columns:repeat(5,20%) ;
+}
+
+
+
+.img-kenny{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.padding-kenny{
+    padding-top: 50px;
+    padding-right:50px ;
+}
+
+
