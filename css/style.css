@@ -2,10 +2,36 @@ html{
     font-family: 'Phudu', cursive;
     font-family: 'Ubuntu Mono', monospace;
     background-color: #949ccc;
+    font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 * {
     box-sizing: border-box;
+  }
+
+  h2{
+    color: white;
+  }
+
+  footer{
+    background-color:#646b92 ;
+  }
+
+  summary{
+    color: white;
+  }
+
+  img{
+    max-width: 100%;
+  }
+  
+  iframe{
+  width: 100%;
+  }
+  
+  table{
+    width: 100%;
   }
 
 a{
@@ -27,7 +53,7 @@ a:hover{
 
 .grid-header{
     display: grid;
-    grid-template-columns: 55% 65%;
+    grid-template-columns: 55% 45%;
 }
 
 .grid-index{
@@ -35,6 +61,23 @@ a:hover{
     grid-template-columns:repeat(5,20%) ;
 }
 
+.grid-main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+
+.grid-sinto{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+.color-indice{
+    background-color: #646b92;
+    padding: 5px;
+}
 
 
 .img-kenny{
@@ -43,9 +86,23 @@ a:hover{
     border-radius: 50%;
 }
 
+.padding-intro{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.padding-sinto{
+    padding-left:40px;
+    padding-right: 40px;
+}
+
 .padding-kenny{
     padding-top: 50px;
     padding-right:50px ;
+}
+
+.padding-indice{
+    padding: 30px;
 }
 
 
